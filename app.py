@@ -1,11 +1,11 @@
-from serpapi import GoogleSearch
+# from serpapi import GoogleSearch
 import os
 from dotenv import load_dotenv
 import time
 
 load_dotenv()
 
-API_KEY = os.getenv("SERPAPI_KEY")
+API_KEY = os.getenv("API_KEY")
 
 # params = {
 #     "engine": "google",              
